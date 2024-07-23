@@ -1,0 +1,23 @@
+.form-control {
+  margin: 0 auto;
+  width: 40%;
+  .title {
+    margin-bottom: 0;
+  }
+  .reuqired {
+    color: red;
+  }
+  .fz-10 {
+    font-size: 12px;
+  }
+  .btn-submit {
+    margin-top: 15px;
+  }
+  .title-header {
+    text-align: center;
+    color: blue;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,45 @@
+// // style.scss
+
+// // Mixins
+// @mixin theme($theme: DarkGray) {
+//   background: $theme;
+//   box-shadow: 0 0 1px rgba($theme, 0.25);
+//   color: #fff;
+// }
+
+// .test {
+//   background-color: base.$primary-color;
+// }
+
+// // Nesting
+// .detail-page {
+//   color: base.$primary-color;
+
+//   li {
+//     span {
+//       @include theme($theme: rgb(69, 182, 129));
+//     }
+//   }
+// }
+@use 'base'; // import scss tu _base.scss vao file style.scss de su dung
+
+.detail-page {
+  padding-top: 20px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  .left,
+  .right {
+    width: 400px;
+    height: 500px;
+  }
+  .right {
+    padding-left: 15px;
+    .price {
+      color: base.$color-price;
+    }
+    .btn-delete {
+      margin-left: 15px;
+    }
+  }
+}

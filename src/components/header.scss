@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  .header-right {
+    .cart-item {
+      font-size: 15px;
+      font-weight: bold;
+      position: absolute;
+      top: 15px;
+      color: red;
+    }
+  }
+}
+
+.header-right ul {
+  display: flex;
+}
+
+.header-right ul li {
+  list-style: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  /* viet in hoa css */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header-right ul li a {
+  color: gray;
+  /* bo dau gach nagng the a */
+  text-decoration: none;
+}
+.header-right ul li a:hover {
+  color: black;
+}

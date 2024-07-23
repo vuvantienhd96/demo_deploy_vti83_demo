@@ -1,0 +1,31 @@
+.content {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  .content-action {
+    .btn-one:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.content .content-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content .content-des p {
+  color: gray;
+}
+
+.content .content-action button {
+  width: 100px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.content .content-action .btn-one {
+  background-color: rgb(152, 152, 209);
+  color: white;
+}

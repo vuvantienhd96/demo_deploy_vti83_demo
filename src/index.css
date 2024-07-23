@@ -1,0 +1,8 @@
+/* ap dung font chu cho tat ca cac component trong projectX */
+
+* {
+  font-family: 'Playwrite NG Modern', cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}

@@ -1,0 +1,20 @@
+.info-user {
+  width: 100vw;
+  height: auto;
+  border: 1px solid gray;
+}
+
+.info-user ul {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.info-user ul li {
+  list-style: none;
+  font-weight: bold;
+  color: black;
+}
+
+.info-user ul li .name {
+  color: red;
+  font-size: 20px;
+}
